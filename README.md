@@ -2,6 +2,7 @@
 # Тестовое задание для Majestic
 ## Demo
 [Простой фронт для демонстрации работы с API](http://demo.bitraydev.xyz/majestic/)
+
 [Собственно API](http://demo.bitraydev.xyz/majestic/api)
 
 ## Структура
