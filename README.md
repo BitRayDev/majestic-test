@@ -5,6 +5,16 @@
 
 [Собственно API](http://demo.bitraydev.xyz/majestic/api)
 
+## Использовано
+
+ - Express
+ - Express-sessions
+ - Vue.JS
+ - Vue-Router
+ - VueX
+ - MySQL
+ - NGinx
+
 ## Структура
 В репозитории находится две папки и SQL скрипт для создания структуры базы данных, который находится в файле ```majestic.sql```.
 В папке **express-server** находится исходный код API на фреймворке **Express**.
