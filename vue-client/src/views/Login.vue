@@ -29,7 +29,7 @@
 		methods: {
 			login: function (event) {
 				axios
-					.post(`http://localhost:5555/login`, {
+					.post(`https://demo.bitraydev.xyz/majestic/api/login`, {
 						login: this.inputLogin,
 						password: this.inputPassword,
 					}, {
@@ -43,7 +43,7 @@
 			},
             logout: function() {
                 axios
-					.get(`http://localhost:5555/logout`, {
+					.get(`https://demo.bitraydev.xyz/majestic/api/logout`, {
                         withCredentials: true   
                     })
 					.then((response) => {

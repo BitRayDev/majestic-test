@@ -15,7 +15,7 @@
 		methods: {
 			deletePost: function (post) {
 				axios
-                    .delete(`http://localhost:5555/posts/${this.post.id}`, {
+                    .delete(`https://demo.bitraydev.xyz/majestic/api/posts/${this.post.id}`, {
                         withCredentials: true   
                     })
                     .then((response) => {

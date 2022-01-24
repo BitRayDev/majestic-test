@@ -26,7 +26,7 @@
 		methods: {
 			register: function (event) {
 				axios
-					.post(`http://localhost:5555/register`, {
+					.post(`https://demo.bitraydev.xyz/majestic/api/register`, {
 						login: this.inputLogin,
 						password: this.inputPassword,
 					}, {

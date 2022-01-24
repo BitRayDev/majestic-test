@@ -29,5 +29,5 @@ app.use(postsRouter);
 app.use(postRouter);
 
 app.listen(port, () => {
-    console.log(`Сервер запущен по адресу: http://localhost:${port}`)
+    console.log(`Сервер запущен по адресу: http://45.90.216.97:${port}`)
 })

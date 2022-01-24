@@ -22,7 +22,7 @@
 		},
         mounted: function() {
             axios
-                .get(`http://localhost:5555/posts`, {
+                .get(`https://demo.bitraydev.xyz/majestic/api/posts`, {
                         withCredentials: true   
                     })
                 .then((response) => {

@@ -19,7 +19,7 @@
 		},
         mounted: function() {
             axios
-                .get(`http://localhost:5555/posts/${this.$route.params.id}`, {
+                .get(`https://demo.bitraydev.xyz/majestic/api/posts/${this.$route.params.id}`, {
                         withCredentials: true   
                     })
                 .then((response) => {

@@ -23,7 +23,7 @@
 		methods: {
 			addPost: function (event) {
 				axios
-					.post(`http://localhost:5555/posts`, {
+					.post(`https://demo.bitraydev.xyz/majestic/api/posts`, {
                         text: this.postText
                     }, {
                         withCredentials: true   
